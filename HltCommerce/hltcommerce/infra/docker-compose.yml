@@ -1,0 +1,17 @@
+﻿version: '3.8'
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+  redis:
+    image: redis:7
+    container_name: redis
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "6379:6379"
+# Additional services (config, discovery, auth, gateway, user, org, placement, wallet) will be added in subsequent iteration.
+

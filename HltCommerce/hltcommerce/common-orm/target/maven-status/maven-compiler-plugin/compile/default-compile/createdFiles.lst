@@ -1,0 +1,6 @@
+com\hltcommerce\common\orm\TenantAwareAuditor.class
+com\hltcommerce\common\orm\TenantContext.class
+com\hltcommerce\common\orm\TenantRoutingDataSource.class
+com\hltcommerce\common\orm\CommonOrmAutoConfiguration.class
+com\hltcommerce\common\orm\BaseEntity.class
+com\hltcommerce\common\orm\TenantFilter.class

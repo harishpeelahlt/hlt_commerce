@@ -1,0 +1,7 @@
+com\hltcommerce\auth\domain\AuthUser.class
+com\hltcommerce\auth\repo\AuthUserRepository.class
+com\hltcommerce\auth\AuthServiceApplication.class
+com\hltcommerce\auth\web\CheckTokenController.class
+com\hltcommerce\auth\config\AuthServerConfig.class
+com\hltcommerce\auth\config\AuthProperties.class
+com\hltcommerce\auth\config\TokenCustomizerConfig.class

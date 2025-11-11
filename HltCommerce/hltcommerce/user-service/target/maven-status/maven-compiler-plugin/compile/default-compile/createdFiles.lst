@@ -1,0 +1,5 @@
+com\hltcommerce\user\repo\AppUserRepository.class
+com\hltcommerce\user\web\TenantValidationFilter.class
+com\hltcommerce\user\config\SecurityConfig.class
+com\hltcommerce\user\UserServiceApplication.class
+com\hltcommerce\user\domain\AppUser.class
