@@ -3,10 +3,13 @@ C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerc
 C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\dto\AuthResponse.java
 C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\dto\LoginRequest.java
 C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\dto\RegisterRequest.java
-C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\model\AppUser.java
+C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\dto\UserProfile.java
+C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\model\AppUserModel.java
 C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\repo\AppUserRepository.java
 C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\service\AuthService.java
+C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\service\CurrentUserService.java
 C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\service\JwtUtil.java
 C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\UserServiceApplication.java
 C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\web\GlobalExceptionHandler.java
+C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\web\MeController.java
 C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\web\TenantValidationFilter.java
