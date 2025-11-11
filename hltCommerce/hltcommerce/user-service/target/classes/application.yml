@@ -1,0 +1,39 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: user-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/hltcommerce_user?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      pool-name: user-service-pool
+      maximum-pool-size: 10
+      minimum-idle: 2
+      auto-commit: true
+      connection-timeout: 30000
+      validation-timeout: 5000
+      initialization-fail-timeout: 1
+      connection-test-query: SELECT 1
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate.format_sql: true
+    database-platform: org.hibernate.dialect.MySQLDialect
+
+logging:
+  level:
+    org.hibernate.orm.connections.pooling: warn
+
+security:
+  jwt:
+    # 256-bit base64 secret (example only; replace in production)
+    secret: VGhpcy1pcy1hLXNlY3JldC1iYXNlNjQtSFMyNTYtSktleS1mb3ItZGV2LXVzZS1vbmx5LTI1Ni0hIQ==
+    issuer: hltcommerce-user-service
+    expiry-seconds: 3600
+
