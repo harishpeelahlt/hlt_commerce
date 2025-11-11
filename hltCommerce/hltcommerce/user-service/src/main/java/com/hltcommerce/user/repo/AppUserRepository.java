@@ -7,5 +7,7 @@ import java.util.Optional;
 
 public interface AppUserRepository extends JpaRepository<AppUserModel, Long> {
     Optional<AppUserModel> findByEmailAndTenantId(String email, String tenantId);
+
+    Optional<Object> findByEmail(String name);
 }
 
