@@ -1,5 +1,6 @@
 C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\config\SecurityConfig.java
 C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\controller\AuthController.java
+C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\controller\MeController.java
 C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\dto\AuthResponse.java
 C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\dto\LoginRequest.java
 C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\dto\RegisterRequest.java
@@ -11,5 +12,4 @@ C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerc
 C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\service\JwtUtil.java
 C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\UserServiceApplication.java
 C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\web\GlobalExceptionHandler.java
-C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\web\MeController.java
 C:\Hltcommerce\hltCommerce\hltcommerce\user-service\src\main\java\com\hltcommerce\user\web\TenantValidationFilter.java
