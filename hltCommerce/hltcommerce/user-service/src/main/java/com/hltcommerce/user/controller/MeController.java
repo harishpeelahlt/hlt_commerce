@@ -1,4 +1,4 @@
-package com.hltcommerce.user.web;
+package com.hltcommerce.user.controller;
 
 import com.hltcommerce.user.dto.UserProfile;
 import com.hltcommerce.user.service.CurrentUserService;
@@ -19,7 +19,7 @@ public class MeController {
 
     @GetMapping("/me")
     public ResponseEntity<UserProfile> me() {
-        var user = currentUserService.getUserOrThrow();
+        var user = currentUserService.getCurrentUser();
         var dto = new UserProfile(
                 user.getId(),
                 user.getTenantId(),
